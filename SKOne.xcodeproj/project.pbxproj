@@ -492,6 +492,7 @@
 				BFA343CD1C677F3C00557C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA343CE1C677F3C00557C15 /* Build configuration list for PBXNativeTarget "SKOneTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				BFA343D01C677F3C00557C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA343D11C677F3C00557C15 /* Build configuration list for PBXNativeTarget "SKOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +510,7 @@
 				BFA343D31C677F3C00557C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
