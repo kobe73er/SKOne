@@ -16,7 +16,7 @@ class GameScene: SKScene {
         sprite.anchorPoint = CGPoint(x:0.5,y:0.5)
         sprite.xScale = 4
         sprite.yScale = 4
-        self.addChild(sprite)
+        self.addChild(sprite) 
         
     }
     
