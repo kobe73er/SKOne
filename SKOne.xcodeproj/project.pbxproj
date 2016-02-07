@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA343A31C677F3C00557C15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA343A21C677F3C00557C15 /* AppDelegate.swift */; };
+		BFA343A51C677F3C00557C15 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BFA343A41C677F3C00557C15 /* GameScene.sks */; };
+		BFA343A71C677F3C00557C15 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA343A61C677F3C00557C15 /* GameScene.swift */; };
+		BFA343A91C677F3C00557C15 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA343A81C677F3C00557C15 /* GameViewController.swift */; };
+		BFA343AC1C677F3C00557C15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA343AA1C677F3C00557C15 /* Main.storyboard */; };
+		BFA343AE1C677F3C00557C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA343AD1C677F3C00557C15 /* Assets.xcassets */; };
+		BFA343B11C677F3C00557C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA343AF1C677F3C00557C15 /* LaunchScreen.storyboard */; };
+		BFA343BC1C677F3C00557C15 /* SKOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA343BB1C677F3C00557C15 /* SKOneTests.swift */; };
+		BFA343C71C677F3C00557C15 /* SKOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA343C61C677F3C00557C15 /* SKOneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA343B81C677F3C00557C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA343971C677F3C00557C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA3439E1C677F3C00557C15;
+			remoteInfo = SKOne;
+		};
+		BFA343C31C677F3C00557C15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA343971C677F3C00557C15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA3439E1C677F3C00557C15;
+			remoteInfo = SKOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA3439F1C677F3C00557C15 /* SKOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA343A21C677F3C00557C15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFA343A41C677F3C00557C15 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BFA343A61C677F3C00557C15 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BFA343A81C677F3C00557C15 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BFA343AB1C677F3C00557C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA343AD1C677F3C00557C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA343B01C677F3C00557C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFA343B21C677F3C00557C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA343B71C677F3C00557C15 /* SKOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA343BB1C677F3C00557C15 /* SKOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKOneTests.swift; sourceTree = "<group>"; };
+		BFA343BD1C677F3C00557C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA343C21C677F3C00557C15 /* SKOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA343C61C677F3C00557C15 /* SKOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKOneUITests.swift; sourceTree = "<group>"; };
+		BFA343C81C677F3C00557C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA3439C1C677F3C00557C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA343B41C677F3C00557C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA343BF1C677F3C00557C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA343961C677F3C00557C15 = {
+			isa = PBXGroup;
+			children = (
+				BFA343A11C677F3C00557C15 /* SKOne */,
+				BFA343BA1C677F3C00557C15 /* SKOneTests */,
+				BFA343C51C677F3C00557C15 /* SKOneUITests */,
+				BFA343A01C677F3C00557C15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA343A01C677F3C00557C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3439F1C677F3C00557C15 /* SKOne.app */,
+				BFA343B71C677F3C00557C15 /* SKOneTests.xctest */,
+				BFA343C21C677F3C00557C15 /* SKOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA343A11C677F3C00557C15 /* SKOne */ = {
+			isa = PBXGroup;
+			children = (
+				BFA343A21C677F3C00557C15 /* AppDelegate.swift */,
+				BFA343A41C677F3C00557C15 /* GameScene.sks */,
+				BFA343A61C677F3C00557C15 /* GameScene.swift */,
+				BFA343A81C677F3C00557C15 /* GameViewController.swift */,
+				BFA343AA1C677F3C00557C15 /* Main.storyboard */,
+				BFA343AD1C677F3C00557C15 /* Assets.xcassets */,
+				BFA343AF1C677F3C00557C15 /* LaunchScreen.storyboard */,
+				BFA343B21C677F3C00557C15 /* Info.plist */,
+			);
+			path = SKOne;
+			sourceTree = "<group>";
+		};
+		BFA343BA1C677F3C00557C15 /* SKOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA343BB1C677F3C00557C15 /* SKOneTests.swift */,
+				BFA343BD1C677F3C00557C15 /* Info.plist */,
+			);
+			path = SKOneTests;
+			sourceTree = "<group>";
+		};
+		BFA343C51C677F3C00557C15 /* SKOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA343C61C677F3C00557C15 /* SKOneUITests.swift */,
+				BFA343C81C677F3C00557C15 /* Info.plist */,
+			);
+			path = SKOneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA3439E1C677F3C00557C15 /* SKOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA343CB1C677F3C00557C15 /* Build configuration list for PBXNativeTarget "SKOne" */;
+			buildPhases = (
+				BFA3439B1C677F3C00557C15 /* Sources */,
+				BFA3439C1C677F3C00557C15 /* Frameworks */,
+				BFA3439D1C677F3C00557C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKOne;
+			productName = SKOne;
+			productReference = BFA3439F1C677F3C00557C15 /* SKOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA343B61C677F3C00557C15 /* SKOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA343CE1C677F3C00557C15 /* Build configuration list for PBXNativeTarget "SKOneTests" */;
+			buildPhases = (
+				BFA343B31C677F3C00557C15 /* Sources */,
+				BFA343B41C677F3C00557C15 /* Frameworks */,
+				BFA343B51C677F3C00557C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA343B91C677F3C00557C15 /* PBXTargetDependency */,
+			);
+			name = SKOneTests;
+			productName = SKOneTests;
+			productReference = BFA343B71C677F3C00557C15 /* SKOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA343C11C677F3C00557C15 /* SKOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA343D11C677F3C00557C15 /* Build configuration list for PBXNativeTarget "SKOneUITests" */;
+			buildPhases = (
+				BFA343BE1C677F3C00557C15 /* Sources */,
+				BFA343BF1C677F3C00557C15 /* Frameworks */,
+				BFA343C01C677F3C00557C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA343C41C677F3C00557C15 /* PBXTargetDependency */,
+			);
+			name = SKOneUITests;
+			productName = SKOneUITests;
+			productReference = BFA343C21C677F3C00557C15 /* SKOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA343971C677F3C00557C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kobe73er;
+				TargetAttributes = {
+					BFA3439E1C677F3C00557C15 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BFA343B61C677F3C00557C15 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BFA3439E1C677F3C00557C15;
+					};
+					BFA343C11C677F3C00557C15 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BFA3439E1C677F3C00557C15;
+					};
+				};
+			};
+			buildConfigurationList = BFA3439A1C677F3C00557C15 /* Build configuration list for PBXProject "SKOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA343961C677F3C00557C15;
+			productRefGroup = BFA343A01C677F3C00557C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA3439E1C677F3C00557C15 /* SKOne */,
+				BFA343B61C677F3C00557C15 /* SKOneTests */,
+				BFA343C11C677F3C00557C15 /* SKOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA3439D1C677F3C00557C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA343A51C677F3C00557C15 /* GameScene.sks in Resources */,
+				BFA343B11C677F3C00557C15 /* LaunchScreen.storyboard in Resources */,
+				BFA343AE1C677F3C00557C15 /* Assets.xcassets in Resources */,
+				BFA343AC1C677F3C00557C15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA343B51C677F3C00557C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA343C01C677F3C00557C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA3439B1C677F3C00557C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA343A71C677F3C00557C15 /* GameScene.swift in Sources */,
+				BFA343A91C677F3C00557C15 /* GameViewController.swift in Sources */,
+				BFA343A31C677F3C00557C15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA343B31C677F3C00557C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA343BC1C677F3C00557C15 /* SKOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA343BE1C677F3C00557C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA343C71C677F3C00557C15 /* SKOneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA343B91C677F3C00557C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA3439E1C677F3C00557C15 /* SKOne */;
+			targetProxy = BFA343B81C677F3C00557C15 /* PBXContainerItemProxy */;
+		};
+		BFA343C41C677F3C00557C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA3439E1C677F3C00557C15 /* SKOne */;
+			targetProxy = BFA343C31C677F3C00557C15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA343AA1C677F3C00557C15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA343AB1C677F3C00557C15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA343AF1C677F3C00557C15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA343B01C677F3C00557C15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA343C91C677F3C00557C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFA343CA1C677F3C00557C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA343CC1C677F3C00557C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengpf.SKOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFA343CD1C677F3C00557C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengpf.SKOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFA343CF1C677F3C00557C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SKOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengpf.SKOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKOne.app/SKOne";
+			};
+			name = Debug;
+		};
+		BFA343D01C677F3C00557C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengpf.SKOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKOne.app/SKOne";
+			};
+			name = Release;
+		};
+		BFA343D21C677F3C00557C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SKOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengpf.SKOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFA343D31C677F3C00557C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dengpf.SKOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA3439A1C677F3C00557C15 /* Build configuration list for PBXProject "SKOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA343C91C677F3C00557C15 /* Debug */,
+				BFA343CA1C677F3C00557C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA343CB1C677F3C00557C15 /* Build configuration list for PBXNativeTarget "SKOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA343CC1C677F3C00557C15 /* Debug */,
+				BFA343CD1C677F3C00557C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA343CE1C677F3C00557C15 /* Build configuration list for PBXNativeTarget "SKOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA343CF1C677F3C00557C15 /* Debug */,
+				BFA343D01C677F3C00557C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA343D11C677F3C00557C15 /* Build configuration list for PBXNativeTarget "SKOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA343D21C677F3C00557C15 /* Debug */,
+				BFA343D31C677F3C00557C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA343971C677F3C00557C15 /* Project object */;
+}
