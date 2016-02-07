@@ -17,6 +17,7 @@ class GameScene: SKScene {
         sprite.xScale = 4
         sprite.yScale = 4
         self.addChild(sprite)
+        
     }
     
 }
